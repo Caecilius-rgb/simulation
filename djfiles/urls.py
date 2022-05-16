@@ -19,5 +19,6 @@ from web import views as v
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', v.index),
+    #path('', v.index),
+    path('index.html/', v.fog),
 ]

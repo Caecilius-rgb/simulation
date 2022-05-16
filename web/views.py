@@ -5,3 +5,6 @@ from urllib import request
 
 def index(request):
     return render(request, 'web/index.html')
+
+def fog(request):
+    return render(request, "web/fog.html")
